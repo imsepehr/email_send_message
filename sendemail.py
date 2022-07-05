@@ -6,9 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-#pass = xoisqsijqtaxtmfx
 
-def send_email(em_send = 'sepehr1657ebadi@gmail.com',em_pass = 'xoisqsijqtaxtmfx',em_rec = 'alirewzaebi@gmail.com',em_text = 'this email was send with python.'):
+def send_email(em_send = 'sepehr1657ebadi@gmail.com',em_pass = 'pass',em_rec = 'alirewzaebi@gmail.com',em_text = 'this email was send with python.'):
     subject = 'check out new email'
 
     #em = EmailMessage()
